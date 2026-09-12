@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ByteHub Informática — Notebooks, peças e assistência técnica</title>
+<meta name="description" content="ByteHub Informática: notebooks, periféricos, acessórios e assistência técnica. Consulte preços e fale direto no WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <!-- PERSONALIZAR: nome da loja -->
+    <a href="#topo" class="brand">Byte<span>Hub</span></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#produtos">Produtos</a>
+      <a href="#assistencia">Assistência</a>
+      <a href="#promocoes">Promoções</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="btn-whatsapp" href="https://wa.me/5581999999999" target="_blank" rel="noopener">(81) 99999-9999</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="topo">
+
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="tag">// vitrine técnica</p>
+      <h1>Tecnologia que<br>funciona de verdade.</h1>
+      <p class="hero-desc">Notebooks, peças, periféricos e manutenção com diagnóstico honesto. <!-- PERSONALIZAR: descrição --></p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="#produtos">Ver produtos</a>
+        <a class="btn-outline" href="https://wa.me/5581999999999" target="_blank" rel="noopener">Falar com um técnico</a>
+      </div>
+    </div>
+    <div class="hero-panel" aria-hidden="true">
+      <div class="panel-bar"><span></span><span></span><span></span></div>
+      <pre>&gt; diagnostico --rapido
+loja.......... ByteHub Informática
+categoria..... notebooks / perifericos
+garantia...... 90 dias em pecas
+atendimento... presencial + whatsapp
+status........ pronto para orcamento_</pre>
+    </div>
+  </section>
+
+  <section class="brands">
+    <span>Trabalhamos com peças e marcas como</span>
+    <div class="brand-row">
+      <span>Intel</span><span>AMD</span><span>Kingston</span><span>Logitech</span><span>Samsung</span><span>WD</span>
+    </div>
+  </section>
+
+  <section class="products" id="produtos">
+    <p class="tag">// catálogo</p>
+    <h2>Produtos em destaque</h2>
+
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-filter="todos">Todos</button>
+      <button class="filter-btn" data-filter="notebooks">Notebooks</button>
+      <button class="filter-btn" data-filter="perifericos">Periféricos</button>
+      <button class="filter-btn" data-filter="acessorios">Acessórios</button>
+      <button class="filter-btn" data-filter="assistencia">Assistência</button>
+    </div>
+
+    <div class="product-grid" id="productGrid">
+      <article class="product-card" data-cat="notebooks">
+        <div class="product-thumb" aria-hidden="true"><span>Foto</span></div>
+        <span class="cat-label">Notebooks</span>
+        <h3>Notebook Core i5 8GB/256GB</h3>
+        <p>Ideal para trabalho e estudo, SSD rápido.</p>
+        <span class="price">R$ 2.399</span>
+      </article>
+      <article class="product-card" data-cat="notebooks">
+        <div class="product-thumb" aria-hidden="true"><span>Foto</span></div>
+        <span class="cat-label">Notebooks</span>
+        <h3>Notebook Ryzen 5 16GB/512GB</h3>
+        <p>Multitarefa pesada e uso profissional.</p>
+        <span class="price">R$ 3.299</span>
+      </article>
+      <article class="product-card" data-cat="perifericos">
+        <div class="product-thumb" aria-hidden="true"><span>Foto</span></div>
+        <span class="cat-label">Periféricos</span>
+        <h3>Teclado mecânico ABNT2</h3>
+        <p>Switch azul, iluminação branca.</p>
+        <span class="price">R$ 189</span>
+      </article>
+      <article class="product-card" data-cat="perifericos">
+        <div class="product-thumb" aria-hidden="true"><span>Foto</span></div>
+        <span class="cat-label">Periféricos</span>
+        <h3>Mouse gamer 6400 DPI</h3>
+        <p>Sensor óptico e 6 botões programáveis.</p>
+        <span class="price">R$ 79</span>
+      </article>
+      <article class="product-card" data-cat="perifericos">
+        <div class="product-thumb" aria-hidden="true"><span>Foto</span></div>
+        <span class="cat-label">Periféricos</span>
+        <h3>Headset com microfone</h3>
+        <p>Som estéreo, ajuste de haste.</p>
+        <span class="price">R$ 129</span>
+      </article>
+      <article class="product-card" data-cat="acessorios">
+        <div class="product-thumb" aria-hidden="true"><span>Foto</span></div>
+        <span class="cat-label">Acessórios</span>
+        <h3>SSD 480GB SATA</h3>
+        <p>Upgrade de velocidade para PCs e notebooks.</p>
+        <span class="price">R$ 199</span>
+      </article>
+      <article class="product-card" data-cat="acessorios">
+        <div class="product-thumb" aria-hidden="true"><span>Foto</span></div>
+        <span class="cat-label">Acessórios</span>
+        <h3>Memória RAM 8GB DDR4</h3>
+        <p>Compatível com a maioria dos notebooks.</p>
+        <span class="price">R$ 159</span>
+      </article>
+      <article class="product-card" data-cat="assistencia">
+        <div class="product-thumb" aria-hidden="true"><span>Foto</span></div>
+        <span class="cat-label">Assistência</span>
+        <h3>Formatação e otimização</h3>
+        <p>Windows original + backup de arquivos.</p>
+        <span class="price">R$ 90</span>
+      </article>
+      <article class="product-card" data-cat="assistencia">
+        <div class="product-thumb" aria-hidden="true"><span>Foto</span></div>
+        <span class="cat-label">Assistência</span>
+        <h3>Troca de tela de notebook</h3>
+        <p>Orçamento sem compromisso.</p>
+        <span class="price">Sob consulta</span>
+      </article>
+    </div>
+    <!-- PERSONALIZAR: edite/adicione produtos. O atributo data-cat controla o filtro -->
+  </section>
+
+  <section class="promo" id="promocoes">
+    <div class="promo-box">
+      <p class="tag">// promoção do mês</p>
+      <h2>Upgrade de SSD com instalação grátis</h2>
+      <p>Leve um SSD de 480GB e a instalação sai por nossa conta. Válido para retirada na loja. <!-- PERSONALIZAR: condições --></p>
+      <a class="btn-primary" href="https://wa.me/5581999999999" target="_blank" rel="noopener">Quero essa promoção</a>
+    </div>
+  </section>
+
+  <section class="assistencia" id="assistencia">
+    <p class="tag">// suporte técnico</p>
+    <h2>Assistência técnica</h2>
+    <div class="assist-grid">
+      <div><h3>Diagnóstico</h3><p>Avaliação do problema em até 24h, sem custo.</p></div>
+      <div><h3>Orçamento</h3><p>Você aprova antes de qualquer serviço ser feito.</p></div>
+      <div><h3>Garantia</h3><p>90 dias em peças trocadas na loja.</p></div>
+    </div>
+  </section>
+
+  <section class="contact" id="contato">
+    <div class="contact-info">
+      <p class="tag">// visite a loja</p>
+      <h2>Fale com a ByteHub</h2>
+      <ul>
+        <li><strong>Endereço</strong> Av. Norte, 850 — Casa Amarela, Recife/PE</li>
+        <li><strong>Horário</strong> Seg a Sex, 9h às 18h · Sáb, 9h às 13h</li>
+        <li><strong>Telefone</strong> <a href="tel:+5581999999999">(81) 99999-9999</a></li>
+        <li><strong>Instagram</strong> <a href="https://instagram.com/" target="_blank" rel="noopener">@bytehub.info</a></li>
+      </ul>
+      <a class="btn-primary" href="https://wa.me/5581999999999" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+    </div>
+    <div class="contact-map" aria-hidden="true"><span>Mapa da localização</span></div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>&copy; 2026 ByteHub Informática</span>
+    <span>Vitrine digital — pedidos combinados diretamente com a loja</span>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/5581999999999" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">WhatsApp</a>
+
+<script src="script.js"></script>
+</body>
+</html>
